@@ -2,7 +2,7 @@
 
 ---
 
-## Mục lục nhanh
+## Mục lục
 
 * [1. Tìm hiểu hệ mã](#1-tìm-hiểu-hệ-mã)
 * [2. Thực thi hệ mã](#2-thực-thi-hệ-mã)
