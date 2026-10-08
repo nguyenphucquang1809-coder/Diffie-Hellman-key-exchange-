@@ -22,8 +22,8 @@
   * Khóa công khai: $A = g^a \bmod p$ (Alice), $B = g^b \bmod p$ (Bob).
   * Khóa bí mật chung: $K = B^a \bmod p = A^b \bmod p = g^{ab} \bmod p$.
 * **Ví dụ số nhỏ ($p=19, g=2$):**
-  * Alice ($a=8$) -> $A = 2^8 \bmod 19 = 9$.
-  * Bob ($b=5$) -> $B = 2^5 \bmod 19 = 13$.
+  * A ($a=8$) -> $A = 2^8 \bmod 19 = 9$.
+  * B ($b=5$) -> $B = 2^5 \bmod 19 = 13$.
   * Khóa chung: $K = 13^8 \bmod 19 = 9^5 \bmod 19 = 16$.
 * **Độ an toàn:** Dựa trên bài toán Logarit rời rạc (DLP). Điểm yếu: Không xác thực danh tính, dễ bị tấn công Man-in-the-Middle (MitM).
 * **So sánh RSA:** Diffie-Hellman có Forward Secrecy (bản DHE) nhưng chỉ dùng để thỏa thuận khóa, không dùng mã hóa dữ liệu trực tiếp hay ký số như RSA.
@@ -37,7 +37,7 @@ Cấu trúc thư mục:
 ```text
 ├── README.md
 ├── docs/
-│   └── Bao_Cao_An_Toan_Thong_Tin.pdf
+│   └── Bao_Cao.pdf
 └── src/
     ├── core/
     │   ├── dh_algorithm.py
