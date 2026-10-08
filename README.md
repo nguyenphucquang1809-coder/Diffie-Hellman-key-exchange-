@@ -1,7 +1,5 @@
 # Diffie-Hellman Key Exchange & MitM Attack Simulation
 
-Đồ án môn An toàn thông tin.
-
 ---
 
 ## Mục lục nhanh
@@ -34,7 +32,7 @@
 
 ## 2. Thực thi hệ mã
 
-Cấu trúc thư mục dự án:
+Cấu trúc thư mục:
 
 ```text
 ├── README.md
