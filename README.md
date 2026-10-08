@@ -32,7 +32,7 @@
 
 ## 2. Thực thi hệ mã
 
-Cấu trúc thư mục:
+Cấu trúc:
 
 ```text
 ├── README.md
